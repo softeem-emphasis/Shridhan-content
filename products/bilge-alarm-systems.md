@@ -1,5 +1,5 @@
 ---
-title: Bilge Alarm Systems 1234
+title: Bilge Alarm Systems
 collection: Integrated Solutions
 images:
   - /images/products/Bilgealarmsystem.webp
