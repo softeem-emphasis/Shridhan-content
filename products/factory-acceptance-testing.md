@@ -1,7 +1,8 @@
 ---
 title: Factory Acceptance Testing (FAT)
 collection: Services
-images: []
+images: 
+- /images/products/factory-acceptance.webp
 summary: >-
   Comprehensive FAT services to validate equipment and system compliance before
   delivery.

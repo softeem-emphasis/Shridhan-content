@@ -2,7 +2,7 @@
 title: Float Operated Level Transmitters
 collection: Level Instrumentation
 images:
-  - /images/products/FloatOperatedLevelTransmitter.png
+  - /images/products/Float-Operated-Level-Transmitter.webp
 summary: >-
   Continuous level sensors suitable for sticky or dirty environments with
   chemically compatible liquids.                      Accurate, Continuous level

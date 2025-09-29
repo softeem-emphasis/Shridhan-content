@@ -2,7 +2,7 @@
 title: Hydrostatic Level Transmitters
 collection: Level Instrumentation
 images:
-  - /images/products/Hydrostaticleveltransmitters.png
+  - /images/products/Hydro-static-level-transmitters.webp
 summary: >-
   Reliable pressure-based transmitters engineered for consistent liquid level
   measurement in diverse

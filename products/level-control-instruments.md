@@ -2,7 +2,7 @@
 title: Level Control Instruments
 collection: Integrated Solutions
 images:
-  - /images/products/Digitalprocessindicator.png
+  - /images/products/Digital-process-indicator.webp
 summary: >-
   Reliable level control instruments designed to monitor, regulate, and maintain
   liquid levels in industrial

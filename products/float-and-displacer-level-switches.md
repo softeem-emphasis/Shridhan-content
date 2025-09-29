@@ -2,7 +2,7 @@
 title: Float & Displacer Level Switches
 collection: Level Instrumentation
 images:
-  - /images/products/Float&DisplacerLevelSwitches.png
+  - /images/products/Float-&-Displacer-Level-Switches.webp
 summary: >-
   Accurate and reliable level sensing in 
 

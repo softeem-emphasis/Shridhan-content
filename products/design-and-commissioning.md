@@ -1,7 +1,8 @@
 ---
 title: Design & Commissioning
 collection: Services
-images: []
+images: 
+- /images/products/design-commissioning.webp
 summary: >-
   End-to-end design and commissioning services for instrumentation and process
   systems.

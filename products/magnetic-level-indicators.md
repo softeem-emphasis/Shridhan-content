@@ -2,7 +2,7 @@
 title: Magnetic Level Indicators (MLIs)
 collection: Level Instrumentation
 images:
-  - /images/products/MLIwithswitches&transmittersfronthighres.png
+  - /images/products/MLI-with-switches-&-transmitters.webp
 summary: >-
   SHRIDHAN MLIs provide reliable, maintenance-free level measurement, enhancing
   safety and efficiency in various industrial

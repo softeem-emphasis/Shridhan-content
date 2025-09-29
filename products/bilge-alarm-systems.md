@@ -2,7 +2,7 @@
 title: Bilge Alarm Systems
 collection: Integrated Solutions
 images:
-  - /images/products/Bilgealarmsystem.webp
+  - /images/products/Bilge-alarm-system.webp
 summary: >-
   Marine-grade bilge alarm systems with control panels designed for reliable
   operation in harsh environments.

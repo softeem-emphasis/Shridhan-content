@@ -1,7 +1,8 @@
 ---
 title: Diaphragm Seal Refurbishment
 collection: Services
-images: []
+images: 
+- /images/products/diaphragm-seal-refurbishment.webp
 summary: >-
   Professional refurbishment service to restore diaphragm seals to optimal
   condition and extend service

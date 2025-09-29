@@ -2,7 +2,7 @@
 title: Shock Tunnel Systems
 collection: Equipment and Systems
 images:
-  - /images/products/Shocktunnelsystem.png
+  - /images/products/Shock-tunnel-system.webp
 summary: Custom-designed to meet exacting specifications with precision instrumentation
 specifications: >-
   - Carbon steel, Austenitic Stainless Steel, - Duplex and super duplex,

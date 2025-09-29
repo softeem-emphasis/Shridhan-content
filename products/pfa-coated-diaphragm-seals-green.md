@@ -2,7 +2,7 @@
 title: PFA Coated Diaphragm Seals - Green
 collection: Diaphragm Seal Systems
 images:
-  - /images/products/PFAcoatingGreen.png
+  - /images/products/PFA-coating-Green.webp
 summary: ''
 specifications: ''
 applications: ''

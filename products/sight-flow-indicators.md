@@ -2,7 +2,7 @@
 title: Sight Flow Indicators
 collection: Flow Instrumentation
 images:
-  - /images/products/SFIimage.tif
+  - /images/products/SFI-image.webp
 summary: >-
   Visual flow indicators for real-time monitoring of liquids in process
   pipelines.

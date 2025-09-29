@@ -2,7 +2,7 @@
 title: Pressure Vessels & Storage Tanks
 collection: Equipment and Systems
 images:
-  - /images/products/StorageTanks.tif
+  - /images/products/Storage-Tanks.webp
 summary: >-
   Comprehensive design-to-commissioning solutions for storage vessels,
   engineered to international codes and capable of handling extreme
