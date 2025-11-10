@@ -1,8 +1,8 @@
 ---
 title: ADIPEC
-image: /images/events/adipec.png
+image: /images/events/Adipec-1.png
 link: '#'
-date: '2024-09-09'
+date: '2025-11-06'
 ---
 
 In November 2025, SHRIDHAN proudly made its mark at ADIPEC 2025, joining hands with our esteemed partners, Hatta Trading Est., in Abu Dhabi!
