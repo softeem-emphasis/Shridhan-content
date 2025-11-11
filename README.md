@@ -104,21 +104,36 @@ images:
 
 ---
 
-## 💾 After You Make Changes
+## 💾 How to Save and Sync Changes with GitHub Desktop
 
-1. Click **Commit changes** on GitHub.
-   Recommended commit message example:
+This guide shows you how to use the GitHub Desktop app to save and upload your changes.
 
-   ```
-   Updated summary for Magnetic Level Indicators
-   ```
+### Part 1: Before You Start (Get Latest Updates)
 
-2. **Notify the developers**:
+Always sync your local files *before* making new edits. This prevents conflicts.
 
-   * Create a GitHub Issue titled: `Content Update – Magnetic Level Indicators`
-   * **Or** send an email with details of what you changed.
+1.  **Open GitHub Desktop** and make sure your current repository is `Shridhan-content`.
+2.  **Switch to the `dev` branch**. At the top, click `Current Branch` and select `dev`.
+3.  **Fetch and Pull**. Click the **`Fetch origin`** button. If it changes to say **`Pull origin`**, click it again to download the latest changes to your computer.
 
-> 💬 If your change affects multiple files, list all filenames in your message.
+### Part 2: Edit Content in VS Code
+
+1.  In GitHub Desktop, click **`Open in Visual Studio Code`** to open the project.
+2.  Navigate to the correct folder (`products/`, `services/`, etc.) and edit the `.md` files as needed.
+3.  **Save your changes** in VS Code (`Ctrl+S` or `Cmd+S`).
+
+### Part 3: Save and Upload Your Changes
+
+After saving your files, return to GitHub Desktop to upload them.
+
+1.  **Review Your Changes**: On the left, you will see a list of all the files you modified.
+2.  **Write a Commit Message**: In the bottom-left corner:
+    *   In the **Summary (required)** field, write a brief, clear description of what you changed.
+    *   *Example*: `Update summary for Magnetic Level Indicators`
+3.  **Commit Your Changes**: Click the blue **`Commit to dev`** button. This saves a snapshot of your work on your computer.
+4.  **Push to GitHub**: Finally, click the **`Push origin`** button at the top of the window. This uploads your committed changes to the `dev` branch on GitHub for the development team to see.
+
+> ✅ **That's it!** Once you've pushed your changes, the development team will be able to see them and merge them into the live site.
 
 ---
 
