@@ -1,8 +1,9 @@
 ---
 title: ADIPEC
-image: /images/events/adipec.png
+image: /images/events/Adipec-1.png
 link: '#'
-date: '2024-09-09'
+date: '2025-11-06'
 ---
 
-In October 2023, SHRIDHAN proudly participated in ADIPEC, alongside our esteemed partners, Hatta Trading Est., in Abu Dhabi. Our teams from both the Indian and Sharjah offices were present, leveraging this incredible platform to showcase our products and innovations.
+In November 2025, SHRIDHAN proudly made its mark at ADIPEC 2025, joining hands with our esteemed partners, Hatta Trading Est., in Abu Dhabi!
+Our dynamic teams from India and Sharjah came together to harness this powerful global platform—showcasing our cutting-edge products, technologies, and forward-thinking innovations with great enthusiasm and impact.
