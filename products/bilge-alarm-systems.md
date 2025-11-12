@@ -4,8 +4,7 @@ collection: Integrated Solutions
 images:
   - /images/products/Bilge-alarm-system.webp
 summary: >-
-  Marine-grade bilge alarm systems with control panels designed for reliable
-  operation in harsh environments.
+  Marine-grade bilge alarm systems with control panels designed to withstand the harsh environmenal conditions in cargo holds, pump rooms and engine rooms. 
 specifications: |-
   - Marine Type Approval tested
   -  Alarm panel with buzzer, indication lamps, and relay contacts
