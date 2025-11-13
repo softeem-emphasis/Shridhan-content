@@ -1,6 +1,6 @@
 ---
 title: Automation Expo 2025
-image: /images/events/Automation-Expo-1.JPG
+image: /images/events/automation-expo-1.jpg
 link: '#'
 date: '2025-08-14'
 ---
