@@ -104,36 +104,50 @@ images:
 
 ---
 
-## 💾 How to Save and Sync Changes with GitHub Desktop
+## 💾 How to Edit and Save Your Work (The Safe Way)
 
-This guide shows you how to use the GitHub Desktop app to save and upload your changes.
+This guide uses the GitHub Desktop app. The process is designed to be safe, so you can't accidentally break the website. Think of it like suggesting changes to a document, rather than editing the master copy directly.
 
-### Part 1: Before You Start (Get Latest Updates)
+### Step 1: Start a New Editing Session
 
-Always sync your local files *before* making new edits. This prevents conflicts.
+Do this **every time** you start a new task (e.g., updating a product page, adding an event).
 
 1.  **Open GitHub Desktop** and make sure your current repository is `Shridhan-content`.
-2.  **Switch to the `dev` branch**. At the top, click `Current Branch` and select `dev`.
-3.  **Fetch and Pull**. Click the **`Fetch origin`** button. If it changes to say **`Pull origin`**, click it again to download the latest changes to your computer.
+2.  **Get the latest master draft**:
+    *   Click `Current Branch` at the top and select the **`main`** branch.
+    *   Click the **`Fetch origin`** button to check for new updates. If it changes to say **`Pull origin`**, click it again.
+3.  **Create your personal copy for editing**:
+    *   Click `Current Branch` again and click the **`New Branch`** button.
+    *   Name your copy based on your task (e.g., `update-expo-page`, `fix-typo`). Use lowercase and hyphens.
+    *   Click **`Create Branch`**, then click the **`Publish branch`** button.
 
-### Part 2: Edit Content in VS Code
+> ✅ **You are now in a safe editing space!** Any changes you make here won't affect the main website until they are approved.
 
+### Step 2: Make Your Edits
 1.  In GitHub Desktop, click **`Open in Visual Studio Code`** to open the project.
-2.  Navigate to the correct folder (`products/`, `services/`, etc.) and edit the `.md` files as needed.
-3.  **Save your changes** in VS Code (`Ctrl+S` or `Cmd+S`).
+2.  Find the file you want to edit in the folders on the left.
+3.  Make your changes to the text and save the file in VS Code (`Ctrl+S`).
 
-### Part 3: Save and Upload Your Changes
+### Step 3: Save and Submit Your Work for Approval
 
-After saving your files, return to GitHub Desktop to upload them.
+Once you're happy with your edits, follow these steps to submit them.
 
-1.  **Review Your Changes**: On the left, you will see a list of all the files you modified.
-2.  **Write a Commit Message**: In the bottom-left corner:
-    *   In the **Summary (required)** field, write a brief, clear description of what you changed.
-    *   *Example*: `Update summary for Magnetic Level Indicators`
-3.  **Commit Your Changes**: Click the blue **`Commit to dev`** button. This saves a snapshot of your work on your computer.
-4.  **Push to GitHub**: Finally, click the **`Push origin`** button at the top of the window. This uploads your committed changes to the `dev` branch on GitHub for the development team to see.
+1.  **Return to GitHub Desktop**. You'll see your changed files listed on the left.
+2.  **Describe your change**: In the **Summary** box at the bottom-left, write a short note about what you did.
+    *   *Example*: `Updated the text on the Automation Expo page`
+3.  **Save your changes**: Click the blue **`Commit to...`** button. This saves a snapshot of your work to your personal copy.
+4.  **Send for review**: Click the **`Push origin`** button at the top. This uploads your saved changes.
+5.  **Ask for approval**: A new section will appear. Click the **`Create Pull Request`** button. This will open a page in your web browser. Just click the final **`Create Pull Request`** button on that page.
 
-> ✅ **That's it!** Once you've pushed your changes, the development team will be able to see them and merge them into the live site.
+> ✅ **All done!** You have successfully submitted your changes. The tech team will now review them and merge them into the website.
+
+### Step 4: Clean Up Before Your Next Task
+
+After the tech team confirms your changes are merged, you can delete your old personal copy.
+
+1.  In GitHub Desktop, switch back to the **`main`** branch and make sure it's updated (`Fetch`/`Pull`).
+2.  Go to the menu bar at the top and click `Branch > Delete...`.
+3.  Select your old branch (e.g., `update-expo-page`) and click **`Delete`**.
 
 ---
 
