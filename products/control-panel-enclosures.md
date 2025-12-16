@@ -1,8 +1,12 @@
 ---
+# Core Identity
 title: Control Panel Enclosures
+sku: CP-CPS-101
+
+# Classification
 collection: Control Panel Solutions
-images:
-  - /images/products/Control-panel-2-120-KVA.webp
+
+# Content
 summary: >-
   Durable panel enclosures engineered to protect electrical and instrumentation
   devices from environmental hazards and unauthorized access.
@@ -20,7 +24,12 @@ accessories: |-
   - Cable entry fittings
   - Mounting hardware
 certifications: '- ISO'
-sku: CP-CPS-101
+
+# Media
+images:
+  - /images/products/control-panel-120-kva.png
+  - /images/products/control-panel-600kva.png
+drawing: control-panel-technical-drawing.pdf
 ---
 
 Shridhan manufactures high-quality control panel enclosures designed to house electrical, electronic, and instrumentation devices. These enclosures provide robust protection against dust, moisture, and external impacts, ensuring reliable performance in industrial and commercial environments.

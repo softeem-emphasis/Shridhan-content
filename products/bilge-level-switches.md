@@ -1,8 +1,13 @@
 ---
+# Core Identity
 title: Bilge Level Switches
+sku: LI-BLS-101
+parentSku: LI-BLS-101
+
+# Classification
 collection: Level Instrumentation
-images:
-  - /images/products/Bligeswitchhighres.webp
+
+# Content
 summary: >-
   Essential level switches for bilges and sumps, providing early detection of
   leaks and flooding.
@@ -14,8 +19,13 @@ applications: |-
   - Industrial sumps
 accessories: '- Bilge alarm panels'
 certifications: '- ABS'
-sku: LI-BLS-101
-parentSku: LI-BLS-101
+
+# Media
+images:
+  - /images/products/bilge-level-switches.png
+
+# Downloads
+brochure: bilge-level-switches-brochure.pdf
 ---
 
 Shridhan Bilge Level Switches are designed to detect liquid in difficult-to-access spaces such as ship bilges, voids, and industrial sumps. They offer early warning of rising liquid levels, helping to prevent leakage-related damage and flooding risks.

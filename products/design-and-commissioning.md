@@ -1,8 +1,12 @@
 ---
+# Core Identity
 title: Design & Commissioning
+sku: SV-D&C-101
+
+# Classification
 collection: Services
-images: 
-- /images/products/design-commissioning.webp
+
+# Content
 summary: >-
   End-to-end design and commissioning services for instrumentation and process
   systems.
@@ -15,7 +19,10 @@ applications: |-
   - Industrial utilities
 accessories: ''
 certifications: ''
-sku: SV-D&C-101
+
+# Media
+images: 
+- /images/products/design-&-commissioning.png
 ---
 
 Shridhan offers complete design-to-commissioning support for vessels, piping, instrumentation skids, and integrated systems. Services include engineering design, system integration, installation, and commissioning.

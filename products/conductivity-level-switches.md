@@ -1,8 +1,13 @@
 ---
+# Core Identity
 title: Conductivity Level Switches
+sku: LI-CLS-101
+parentSku: LI-CLS-101
+
+# Classification
 collection: Level Instrumentation
-images:
-  - /images/products/Conductivelevelswitch.webp
+
+# Content
 summary: >-
   Our point Level Controller is a cost - effective solution designed for
   detecting conductive liquids with various
@@ -26,8 +31,13 @@ certifications: |-
   - ATEX
   - ABS
   - CIMFR
-sku: LI-CLS-101
-parentSku: LI-CLS-101
+
+# Media
+images:
+  - /images/products/conductive-level-switch.png
+
+# Downloads
+brochure: conductive-level-switches-brochure.pdf
 ---
 
 Shridhan Conductivity Level Switches provide reliable detection of conductive liquids, regardless of density, viscosity, or particle presence. They can also detect interfaces between conductive and non-conductive liquids. Their simple, robust design ensures dependable performance across industries.Its versatility for efficient liquid level detection in diverse applications

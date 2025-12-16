@@ -1,8 +1,12 @@
 ---
+# Core Identity
 title: External Chambers & Stilling Wells
+sku: IS-EC&-101
+
+# Classification
 collection: Integrated Solutions
-images:
-  - /images/products/EXCS.webp
+
+# Content
 summary: >-
   Engineered chambers and stilling wells for reliable level measurement,
   ensuring stability in turbulent or restricted process
@@ -21,7 +25,10 @@ accessories: |-
   - Isolation valves
   - Mounting supports
 certifications: '- PED'
-sku: IS-EC&-101
+
+# Media
+images:
+  - /images/products/external-chambers-&-stilling-wells.png
 ---
 
 Shridhan External Chambers allow level instruments to be mounted externally to process vessels. This provides isolation of instruments during maintenance while maintaining continuous plant operation.

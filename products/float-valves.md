@@ -1,7 +1,13 @@
 ---
+# Core Identity
 title: Float Valves
+sku: FI-FLV-101
+parentSku: FI-FLV-101
+
+# Classification
 collection: Flow Instrumentation
-images: []
+
+# Content
 summary: >-
   Automatic valves that maintain liquid levels in storage tanks and sumps with
   high accuracy and reliability.             They are commonly used in numerous
@@ -16,8 +22,10 @@ applications: |-
   - Industrial sumps
 accessories: '- Mounting hardware'
 certifications: ''
-sku: FI-FLV-101
-parentSku: FI-FLV-101
+
+# Media
+images:
+  - /images/products/float-valve.png
 ---
 
 Shridhan Float Valves are designed to automatically stop liquid flow at predetermined levels. These compact and dependable valves are widely used for water and liquid storage applications.

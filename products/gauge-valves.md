@@ -1,8 +1,13 @@
 ---
+# Core Identity
 title: Gauge Valves
+sku: IS-GV-101
+parentSku: IS-GV-101
+
+# Classification
 collection: Integrated Solutions
-images: 
-- /images/products/Gauge-valve.webp
+
+# Content
 summary: >-
   Durable valves designed to isolate instrument assemblies during shutdown and
   maintenance
@@ -20,8 +25,10 @@ accessories: |-
   - Mounting hardware
   - Replacement seals
 certifications: ''
-sku: IS-GV-101
-parentSku: IS-GV-101
+
+# Media
+images:
+  - /images/products/gauge-valve.png
 ---
 
 Shridhan Gauge Valves are engineered to isolate level gauge assemblies during maintenance or process shutdowns. These valves allow safe installation, removal, and servicing of level gauges without interrupting plant operations.

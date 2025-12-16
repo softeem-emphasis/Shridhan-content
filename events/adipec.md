@@ -1,6 +1,6 @@
 ---
 title: ADIPEC
-image: /images/events/adipec-1.jpg
+image: /images/events/adipec.jpg
 link: '#'
 date: '2025-11-06'
 ---

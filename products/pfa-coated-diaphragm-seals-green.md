@@ -1,13 +1,20 @@
 ---
+# Core Identity
 title: PFA Coated Diaphragm Seals - Green
+sku: DS-PCD-100
+
+# Classification
 collection: Diaphragm Seal Systems
-images:
-  - /images/products/PFA-coating-Green.webp
+
+# Content
 summary: ''
 specifications: ''
 applications: ''
 accessories: ''
 certifications: ''
-sku: DS-PCD-100
+
+# Media
+images:
+  - /images/products/pfa-coating-green.png
 ---
 

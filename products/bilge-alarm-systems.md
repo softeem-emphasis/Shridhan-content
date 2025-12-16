@@ -1,8 +1,13 @@
 ---
+# Core Identity
 title: Bilge Alarm Systems
+sku: IS-BAS-101
+parentSku: IS-BAS-101
+
+# Classification
 collection: Integrated Solutions
-images:
-  - /images/products/Bilge-alarm-system.webp
+
+# Content
 summary: >-
   Marine-grade bilge alarm systems with control panels designed to withstand the harsh environmenal conditions in cargo holds, pump rooms and engine rooms. 
 specifications: |-
@@ -19,8 +24,13 @@ accessories: |-
   - Compatible bilge level switches
   - Control panel enclosures
 certifications: ''
-sku: IS-BAS-101
-parentSku: IS-BAS-101
+
+# Media
+images:
+  - /images/products/bilge-alarm-system.png
+
+# Downloads
+brochure: bilge-alarm-system-brochure.pdf
 ---
 
 Shridhan Bilge Alarm Systems are engineered to meet the demanding requirements of marine and offshore installations. Each system integrates bilge level switches with alarm panels that include buzzers, acknowledgement systems, indication lamps, and relay contacts.

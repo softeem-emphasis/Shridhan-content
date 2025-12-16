@@ -1,8 +1,13 @@
 ---
+# Core Identity
 title: Hydrostatic Level Transmitters
+sku: LI-HLT-101
+parentSku: LI-HLT-101
+
+# Classification
 collection: Level Instrumentation
-images:
-  - /images/products/Hydro-static-level-transmitters.webp
+
+# Content
 summary: >-
   Reliable pressure-based transmitters engineered for consistent liquid level
   measurement in diverse
@@ -20,8 +25,13 @@ applications: |-
   - Used in small diameter pipes
 accessories: ''
 certifications: ''
-sku: LI-HLT-101
-parentSku: LI-HLT-101
+
+# Media
+images:
+  - /images/products/reed-chain-level-transmitter.png
+
+# Downloads
+brochure: hydrostatic-level-transmitters-brochure.pdf
 ---
 
 Shridhan Hydrostatic Level Transmitters are designed for use in open or vented tanks, reservoirs, and channels. Their flexible mounting design allows deployment in tanks of varied shapes and sizes, as well as in marine and chemical process environments.
