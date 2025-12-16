@@ -100,54 +100,73 @@ images:
 | Use plain text or simple Markdown                         | Paste formatted text from Word without cleaning   |
 | Add images to the correct `/images/...` folder            | Upload images in random folders                   |
 | Use lowercase filenames with hyphens                      | Use spaces, underscores, or capitals in filenames |
+| **Always create a new branch**                            | **Edit directly on the `main` branch**            |
 | Ask the dev team if unsure                                | Guess formatting — it may break the layout        |
 
 ---
 
 ## 💾 How to Edit and Save Your Work (The Safe Way)
 
-This guide uses the GitHub Desktop app. The process is designed to be safe, so you can't accidentally break the website. Think of it like suggesting changes to a document, rather than editing the master copy directly.
+Follow these instructions exactly to safely update the website content.
 
-### Step 1: Start a New Editing Session
+> ⛔️ **CRITICAL RULE:** Never edit the `main` branch directly. **Always** create a new branch first.
 
-Do this **every time** you start a new task (e.g., updating a product page, adding an event).
+### Phase 1: Create a New Branch (Start Here)
 
-1.  **Open GitHub Desktop** and make sure your current repository is `Shridhan-content`.
-2.  **Get the latest master draft**:
-    *   Click `Current Branch` at the top and select the **`main`** branch.
-    *   Click the **`Fetch origin`** button to check for new updates. If it changes to say **`Pull origin`**, click it again.
-3.  **Create your personal copy for editing**:
-    *   Click `Current Branch` again and click the **`New Branch`** button.
-    *   Name your copy based on your task (e.g., `update-expo-page`, `fix-typo`). Use lowercase and hyphens.
-    *   Click **`Create Branch`**, then click the **`Publish branch`** button.
+Do this **every time** you want to make changes.
 
-> ✅ **You are now in a safe editing space!** Any changes you make here won't affect the main website until they are approved.
+1.  **Open the GitHub Desktop app** on your computer.
+2.  **Select the Repository**: Make sure `Shridhan-content` is selected in the top-left corner.
+3.  **Switch to Main**:
+    *   Click the **Current Branch** button at the top.
+    *   Select **`main`** from the list.
+4.  **Get Latest Updates**:
+    *   Click the **Fetch origin** button at the top right.
+    *   If the button changes to **Pull origin**, click it again to download the latest files.
+5.  **Create Your Branch**:
+    *   Click the **Current Branch** button again.
+    *   Click the **New Branch** button.
+    *   **Name your branch**: Type a name like `updating-product-content` (lowercase, no spaces).
+    *   Click **Create Branch**.
+    *   Click **Publish Branch** to save it to the cloud.
 
-### Step 2: Make Your Edits
-1.  In GitHub Desktop, click **`Open in Visual Studio Code`** to open the project.
-2.  Find the file you want to edit in the folders on the left.
-3.  Make your changes to the text and save the file in VS Code (`Ctrl+S`).
+> ✅ **Success!** You are now in your own safe lane.
 
-### Step 3: Save and Submit Your Work for Approval
+### Phase 2: Make Your Changes
 
-Once you're happy with your edits, follow these steps to submit them.
+1.  **Open the Editor**:
+    *   In GitHub Desktop, click the button that says **Open in Visual Studio Code**.
+2.  **Find the File**:
+    *   In VS Code, look at the file explorer on the left.
+    *   Click the folder (e.g., `products/`) to expand it.
+    *   Click the file you want to edit (e.g., `magnetic-level-indicators.md`).
+3.  **Edit the File**:
+    *   Make your text changes in the editor window.
+4.  **Save the File**:
+    *   Go to **File > Save** in the menu, or press `Ctrl + S`.
 
-1.  **Return to GitHub Desktop**. You'll see your changed files listed on the left.
-2.  **Describe your change**: In the **Summary** box at the bottom-left, write a short note about what you did.
-    *   *Example*: `Updated the text on the Automation Expo page`
-3.  **Save your changes**: Click the blue **`Commit to...`** button. This saves a snapshot of your work to your personal copy.
-4.  **Send for review**: Click the **`Push origin`** button at the top. This uploads your saved changes.
-5.  **Ask for approval**: A new section will appear. Click the **`Create Pull Request`** button. This will open a page in your web browser. Just click the final **`Create Pull Request`** button on that page.
+### Phase 3: Save and Upload (Commit & Push)
 
-> ✅ **All done!** You have successfully submitted your changes. The tech team will now review them and merge them into the website.
+1.  **Return to GitHub Desktop**:
+    *   Switch back to the GitHub Desktop app. You will see your changed file listed on the left.
+2.  **Commit (Save) Your Changes**:
+    *   Find the **Summary** box at the bottom left (it usually says "Summary (required)").
+    *   Type a short description, e.g., "Updated description for MLI product".
+    *   Click the blue **Commit to [your-branch-name]** button.
+3.  **Push (Upload) Your Changes**:
+    *   Click the **Push origin** button at the top right.
+    *   *Note: This sends your changes to the internet so developers can see them.*
+4.  **Finish**:
+    *   Tell the developer team you have pushed your branch (e.g., "I pushed the `updating-product-content` branch").
 
-### Step 4: Clean Up Before Your Next Task
+### Phase 4: Cleaning Up
 
-After the tech team confirms your changes are merged, you can delete your old personal copy.
+Once the developers have merged your changes:
 
-1.  In GitHub Desktop, switch back to the **`main`** branch and make sure it's updated (`Fetch`/`Pull`).
-2.  Go to the menu bar at the top and click `Branch > Delete...`.
-3.  Select your old branch (e.g., `update-expo-page`) and click **`Delete`**.
+1.  Switch back to the **`main`** branch in GitHub Desktop.
+2.  Click **Branch > Delete...** in the top menu to remove your old branch.
+
+To start a new task, go back to **Phase 1**.
 
 ---
 
