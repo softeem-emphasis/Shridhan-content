@@ -56,6 +56,11 @@ body:
     validations:
       required: true
 
-  - type: markdown
+  - type: textarea
+    id: screenshots
     attributes:
-      value: "### Screenshots\nPlease drag and drop screenshots below this line."
+      label: Screenshots
+      description: Please drag and drop screenshots here.
+      placeholder: Drag images here or paste from clipboard...
+    validations:
+      required: false
