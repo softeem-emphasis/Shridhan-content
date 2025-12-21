@@ -27,13 +27,13 @@ body:
       required: true
 
   - type: textarea
-    id: alternatives
+    id: justification
     attributes:
-      label: Describe alternatives you've considered
-      description: Did you think of other ways?
-      placeholder: We could also just list all addresses on one page...
+      label: Justification for Change
+      description: Explain the business value. This is required for Gautham's approval and Softeem's acceptance.
+      placeholder: This change is critical because... (Impact on sales, user experience, etc.)
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: screenshots
