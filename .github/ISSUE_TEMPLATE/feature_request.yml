@@ -1,0 +1,44 @@
+name: Feature Request
+description: Request a new feature, layout change, or customization.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** Feature requests require approval from Gautham before development begins.
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal / Problem Statement
+      description: What are you trying to achieve?
+      placeholder: We need a way to filter products by region...
+    validations:
+      required: true
+
+  - type: textarea
+    id: business-value
+    attributes:
+      label: Business Value
+      description: Why is this important?
+      placeholder: This will help customers find local distributors faster.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference / Mockups
+      description: Links to examples or drag-and-drop screenshots/drawings.
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How will we know this is done?
+      placeholder: "1. User sees 3 tabs.\n2. Clicking 'Europe' shows only european offices."
+    validations:
+      required: false
