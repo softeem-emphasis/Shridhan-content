@@ -1,44 +1,45 @@
 name: Feature Request
-description: Request a new feature, layout change, or customization.
+description: A new idea, layout change, or content structure update.
 title: "[Feature]: "
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Note:** Feature requests require approval from Gautham before development begins.
+        Thanks for proposing a new feature! Please explain *why* this is needed.
 
   - type: textarea
-    id: goal
+    id: problem
     attributes:
-      label: Goal / Problem Statement
-      description: What are you trying to achieve?
-      placeholder: We need a way to filter products by region...
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when...
+      placeholder: I need to click 3 times to see the Middle East address...
     validations:
       required: true
 
   - type: textarea
-    id: business-value
+    id: solution
     attributes:
-      label: Business Value
-      description: Why is this important?
-      placeholder: This will help customers find local distributors faster.
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+      placeholder: When I click 'Middle East', the address should slide down...
     validations:
       required: true
 
   - type: textarea
-    id: reference
+    id: alternatives
     attributes:
-      label: Reference / Mockups
-      description: Links to examples or drag-and-drop screenshots/drawings.
+      label: Describe alternatives you've considered
+      description: Did you think of other ways?
+      placeholder: We could also just list all addresses on one page...
     validations:
       required: false
 
   - type: textarea
-    id: acceptance
+    id: screenshots
     attributes:
-      label: Acceptance Criteria
-      description: How will we know this is done?
-      placeholder: "1. User sees 3 tabs.\n2. Clicking 'Europe' shows only european offices."
+      label: Screenshots / Mockups
+      description: Please drag and drop images here to show us what you mean.
+      placeholder: Drag images here...
     validations:
       required: false
