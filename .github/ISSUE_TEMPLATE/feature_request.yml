@@ -1,45 +1,81 @@
-name: Feature Request
-description: A new idea, layout change, or content structure update.
-title: "[Feature]: "
+name: 🚀 Enhancement Request
+description: Suggest new features or structural improvements (BILLABLE)
+title: "[Enhancement]: "
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for proposing a new feature! Please explain *why* this is needed.
+        ## Enhancement Request
+        Use this template to suggest new features, structural changes, or improvements beyond the original scope.
+        
+        **Note:** This is billable work. Enhancements are tracked separately from bug fixes.
 
   - type: textarea
     id: problem
     attributes:
-      label: Is your feature request related to a problem?
-      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when...
-      placeholder: I need to click 3 times to see the Middle East address...
+      label: Is your enhancement related to a problem?
+      description: Describe the problem or limitation you're experiencing
+      placeholder: |
+        Example: Currently, users cannot [do something]...
+        Or: The navigation structure doesn't support [use case]...
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: solution
     attributes:
-      label: Describe the solution you'd like
-      description: A clear and concise description of what you want to happen.
-      placeholder: When I click 'Middle East', the address should slide down...
+      label: Describe the Enhancement
+      description: What would you like to see added or changed?
+      placeholder: |
+        Example: Add a new section for [feature]...
+        Or: Restructure the navigation to include [changes]...
+        Or: Implement [new functionality]...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: enhancement-type
+    attributes:
+      label: Type of Enhancement
+      description: What category does this enhancement fall into?
+      options:
+        - New Feature/Section
+        - Navigation/Structure Change
+        - Layout Improvement
+        - Functionality Addition
+        - Integration/API
+        - Other
     validations:
       required: true
 
   - type: textarea
-    id: justification
+    id: alternatives
     attributes:
-      label: Justification for Change
-      description: Explain the business value. This is required for Gautham's approval and Softeem's acceptance.
-      placeholder: This change is critical because... (Impact on sales, user experience, etc.)
-    validations:
-      required: true
+      label: Alternative Solutions
+      description: Have you considered any alternative approaches?
+      placeholder: Describe any alternative solutions or features you've considered
 
   - type: textarea
-    id: screenshots
+    id: additional-context
     attributes:
-      label: Screenshots / Mockups
-      description: Please drag and drop images here to show us what you mean.
-      placeholder: Drag images here...
+      label: Additional Context
+      description: Add any other context, mockups, or examples
+      placeholder: |
+        - Screenshots or mockups
+        - Examples from other sites
+        - Specific requirements
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this enhancement?
+      options:
+        - Low (Nice to have)
+        - Medium (Would improve UX)
+        - High (Important for business)
+        - Critical (Blocking workflow)
+      default: 1
     validations:
-      required: false
+      required: true

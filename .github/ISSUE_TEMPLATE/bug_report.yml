@@ -1,19 +1,22 @@
-name: Bug Report
-description: Report a problem, broken link, or visual glitch.
+name: 🔧 Bug Report
+description: Report defects, broken functionality, or display issues (WARRANTY)
 title: "[Bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report an issue! Please be descriptive.
+        ## Bug Report
+        Use this template to report actual defects, broken functionality, or display issues.
+        
+        **Note:** Bugs are covered under warranty. For content changes, use the Content Update template.
 
   - type: input
     id: url
     attributes:
       label: Page URL
       description: Where did this happen?
-      placeholder: https://shridhan.com/products/...
+      placeholder: https://shridhan.softeem.org/products/...
     validations:
       required: true
 
@@ -30,7 +33,7 @@ body:
     id: steps
     attributes:
       label: Steps to Reproduce
-      description: Steps to see the bug.
+      description: Steps to see the bug
       placeholder: |
         1. Go to '...'
         2. Click on '....'
@@ -52,7 +55,21 @@ body:
     attributes:
       label: Actual Behavior
       description: What actually happened?
-      placeholder: The screen went white.
+      placeholder: The screen went white or text is overlapping.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Bug Type
+      description: What kind of bug is this?
+      options:
+        - Display Issue (overlapping, alignment)
+        - Broken Functionality
+        - Typography Error (missing letters, symbols)
+        - Performance Issue
+        - Other
     validations:
       required: true
 
@@ -60,7 +77,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: Please drag and drop screenshots here.
+      description: Please drag and drop screenshots here
       placeholder: Drag images here or paste from clipboard...
     validations:
       required: false
